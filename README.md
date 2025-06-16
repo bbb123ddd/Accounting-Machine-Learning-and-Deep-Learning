@@ -13,10 +13,17 @@ Data file: 利益予測データベース_20250330.xlsx
 - All workflows are in Jupyter Notebook format for easy use.
 - Recommended to run directly on Google Colab.
 
+## Dataset Download
+
+The full dataset is available on Google Drive:
+[利益予測データベース (Google Sheets)](https://docs.google.com/spreadsheets/d/1SHA9wapa_Ebv97EI6VQFzp7xWeuSzEvs/edit?usp=drive_link&ouid=110580869249633296518&rtpof=true&sd=true)
+
+If you have trouble accessing the data, please contact the author.
+
 ## How to Use
 
 1. Clone this repository.
-2. Upload your data file (利益予測データベース_20250330.xlsx) to your Colab environment or workspace.
+2. Upload your data file (利益予測データベース_20250330.xlsx) to your Colab environment or workspace. 
 3. Open and run the provided notebook files (such as DNN_model.ipynb, knn_model.ipynb, transformer_model.ipynb) in Google Colab.
 4. You can modify or extend the code as needed for your own analysis.
 
