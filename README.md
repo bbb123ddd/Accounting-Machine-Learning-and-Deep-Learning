@@ -1,5 +1,3 @@
-# Accounting-Machine-Learning-and-Deep-Learning
-Applying machine learning and deep learning techniques to analyze accounting and financial data, with implementations such as DNN for forecasting and classification tasks.
 # Accounting Machine Learning and Deep Learning
 
 This repository contains machine learning and deep learning projects for analyzing accounting data, with a focus on **profit prediction** based on real-world financial indicators.
