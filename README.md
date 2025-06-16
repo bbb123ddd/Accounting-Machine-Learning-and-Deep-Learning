@@ -1,50 +1,38 @@
 # Accounting Machine Learning and Deep Learning
 
-This repository contains machine learning and deep learning projects for analyzing accounting data, with a focus on **profit prediction** based on real-world financial indicators.
+This repository provides implementations of various machine learning and deep learning models, including DNN, KNN, and Transformer architectures, for accounting data analysis and profit prediction.
 
-## 📊 Project Overview
+## Dataset
 
-- Data source: `利益予測データベース_20250330.xlsx` (Profit Prediction Database)
-- Task: Use various machine learning (ML) and deep learning (DL) algorithms—including DNN—to predict company profit (利益, profit) based on historical accounting and financial data.
-- Models:Includes DNN (Deep Neural Network), and plans for adding other ML/DL methods.
-- Applications: Financial forecasting, risk analysis, and anomaly detection in accounting data.
+Data file: 利益予測データベース_20250330.xlsx  
+(The dataset should be uploaded by the user. It contains financial and accounting indicators as features, with profit as the prediction target.)
 
-## 🔍 Data Description
+## Features
 
-The dataset contains various accounting indicators (features) and the target variable "profit" to be predicted. Each row represents a company-year (or observation period) with corresponding financial metrics.
+- Supports multiple ML/DL models: DNN, KNN, Transformer, etc.
+- All workflows are in Jupyter Notebook format for easy use.
+- Recommended to run directly on Google Colab.
 
-| Sample | group | ... | financial indicators (features) | profit (target) |
-|--------|-------|-----|-------------------------------|-----------------|
-|        |       | ... |                               |                 |
+## How to Use
 
-- Input features: financial/accounting indicators (e.g. sales, assets, liabilities, etc.)
-- Target: profit (`利益`)
+1. Clone this repository.
+2. Upload your data file (利益予測データベース_20250330.xlsx) to your Colab environment or workspace.
+3. Open and run the provided notebook files (such as DNN_model.ipynb, knn_model.ipynb, transformer_model.ipynb) in Google Colab.
+4. You can modify or extend the code as needed for your own analysis.
 
-## 🚀 Methods
+## Project Objectives
 
-- Data preprocessing and exploratory analysis
-- Feature engineering (selecting and transforming accounting indicators)
-- Model training with DNN and other machine learning algorithms
-- Performance evaluation using MAE, confidence intervals, and visualization
+- Predict profit based on real accounting and financial data.
+- Compare the performance of different machine learning and deep learning models for the same prediction task.
+- Provide a reproducible workflow for financial data modeling.
 
-## 📦 How to Use
+## Future Work
 
-1. Clone this repository
-2. Prepare the dataset (`利益予測データベース_20250330.xlsx`)
-3. Run the provided Jupyter Notebooks (`DNN_model.ipynb`, etc.)
-4. Analyze prediction results and model performance
-
-## 📚 Future Work
-
-- Add more ML/DL models (e.g. RandomForest, XGBoost, LSTM)
-- Extend to other financial prediction tasks
-
----
+- Add more advanced models and automated feature engineering.
+- Expand to other financial analysis and prediction tasks.
 
 ## 中文简介
 
-本项目以《利益予測データベース_20250330.xlsx》为数据基础，利用机器学习和深度学习方法，对会计和财务指标进行建模，重点任务是**利润预测**。项目已实现DNN等模型，后续将加入更多方法，适用于财务预测、风险分析、异常检测等应用场景。
+本项目致力于利用多种机器学习和深度学习方法（包括DNN、KNN、Transformer等），对上传的会计与财务数据进行利润预测分析。所有代码以Jupyter Notebook形式发布，推荐在Google Colab上运行。后续将不断扩展更多模型和功能，欢迎学习和贡献。
 
----
-
-*Feel free to contact or contribute!*
+If you have questions or want to contribute, please open an issue or pull request.
