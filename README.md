@@ -16,7 +16,7 @@ Data file: 利益予測データベース_20250330.xlsx
 ## Dataset Download
 
 The full dataset is available on Google Drive:
-[利益予測データベース (Google Sheets)](https://docs.google.com/spreadsheets/d/1SHA9wapa_Ebv97EI6VQFzp7xWeuSzEvs/edit?usp=drive_link&ouid=110580869249633296518&rtpof=true&sd=true)
+https://docs.google.com/spreadsheets/d/1SHA9wapa_Ebv97EI6VQFzp7xWeuSzEvs/edit?usp=sharing&ouid=110580869249633296518&rtpof=true&sd=true
 
 If you have trouble accessing the data, please contact the author.
 
